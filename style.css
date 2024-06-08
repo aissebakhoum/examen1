@@ -1,0 +1,119 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+header {
+    
+    padding: 20px;
+    /* width: 100%;
+    /* z-index: 1; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */ 
+   
+}
+nav img{
+    display: flex;
+}
+ .logo {
+    max-width: 100px;
+    height: auto;
+    
+ }
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    text-decoration: none;
+}
+header nav ul li {
+   display: inline;
+   margin-right: 20px;
+    
+
+}
+header nav ul li a {
+    text-decoration: none;
+    
+    
+}
+ section {
+    padding: 20px;
+ }
+ section h3 {
+    font-size: 200%;
+    font-family: 'Arial', sans-serif;
+
+ }
+  section a{
+    border-radius: 20px;
+    text-decoration: none;
+    
+ }
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row .col50 {
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col50 h2 {
+    margin-bottom: 20px;
+    color: rgb(100, 73, 252);
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+.row.col50 .image {
+    height: 50px;
+    width: 60px;
+    position: relative;
+}
+#portfolio {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#portfolio h2 {
+    margin-bottom: 20px;
+    color: rgb(100, 73, 252);
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+#portfolio ul li {
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+#portfolio ul li a{
+    text-decoration: none;
+}
+#projet img {
+    position: relative;
+    top: 0;
+    left: 0;
+     /* width: 50%;
+    height: 300px;  */
+    
+    flex-direction: column;
+}
+#experience .image-experience img{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
